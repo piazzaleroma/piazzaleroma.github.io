@@ -29,9 +29,9 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Varela Round', sans-serif; }
+html, button, input, select, textarea { font-family: 'Roboto Slab', serif; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Varela Round', sans-serif; }
+body { margin: 0; font-family: 'Roboto Slab', serif; }
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -213,11 +213,11 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 Hero
 ========================================================================== */
 .hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero  h1 { color: #e71f01; font-size: 40px; letter-spacing: 12px; margin: 10px;  }
-.hero h1 span { color: #e71f01; display: inline-block; }
-.hero p { color: #e71f01; letter-spacing: 1px; }
+.hero  h1 { color: #442e4b; font-size: 40px; letter-spacing: 8px; margin: 10px; text-shadow: 3px 4px 7px rgba(68,46,75,0.4); }
+.hero h1 span { color: #442e4b; display: inline-block; text-shadow: 3px 4px 7px rgba(68,46,75,0.4);}
+.hero p { color: #442e4b; letter-spacing: 1px; }
 .learn-more-btn { background: #e71e19; padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #a11c19; -moz-box-shadow: 0px 3px 0px 0px #a11c19; box-shadow: 0px 3px 0px 0px #a11c19; margin: 60px 0 0; font-weight: bold; }
-.learn-more-btn:hover, .learn-more-btn:focus { background: #e71f01 color: #fff; }
+.learn-more-btn:hover, .learn-more-btn:focus { background: #442e4b color: #fff; }
 /* ==========================================================================
 Intro
 ========================================================================== */
@@ -322,4 +322,4 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-.wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
+.wp3 { background: url('../img/iphone-bg.jpg') no-repeat center center; background-position: 200px 10px; height: 100%; background-size: cover; }
