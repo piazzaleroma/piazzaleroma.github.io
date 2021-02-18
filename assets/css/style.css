@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
   color: #444444;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 /*--------------------------------------------------------------
@@ -417,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -634,7 +634,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Slab", serif;font-family: 'Roboto Slab', serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -731,7 +731,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -864,7 +864,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   color: #fff;
 }
@@ -1065,7 +1065,7 @@ section {
   font-size: 42px;
   color: #009961;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
   margin-bottom: 20px;
 }
 
@@ -1118,7 +1118,7 @@ section {
   color: #009961;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1212,7 +1212,7 @@ section {
 .faq .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1466,7 +1466,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
