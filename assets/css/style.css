@@ -724,10 +724,12 @@ section {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
+  text-transform: uppercase; 
 }
 
 .cta p {
   color: #fff;
+  text-transform: uppercase; 
 }
 
 .cta .cta-btn {
@@ -886,6 +888,36 @@ section {
   border-radius: 50px;
 }
 
+
+.franken .heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3D5AFE
+}
+
+.franken .line1 {
+    color: #000;
+    font-size: 12px
+}
+.franken .line2 {
+    color: #000;
+    font-size: 12px
+}
+
+.franken .line3 {
+    color: #000;
+    font-size: 12px
+}
+
+.franken .cards {
+    transition: all 0.2s ease;
+    cursor: pointer
+}
+
+.cards:hover {
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1)
+}
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
