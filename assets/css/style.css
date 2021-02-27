@@ -4,6 +4,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+ul.feature-icons i:before {
+  background: #7590be;
+  border-radius: 100%;
+  color: #ffffff;
+  display: block;
+  height: 2.1em;
+  left: 0;
+  line-height: 2.1em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.1em;
+}
 
 /*--------------------------------------------------------------
 # General
@@ -98,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #00c27b;
+  background: #4a689d;
   color: #fff;
 }
 
@@ -158,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #00b371;
+  background: #4a689d;
   color: #fff;
 }
 
@@ -782,7 +795,7 @@ ul.icons {
 .cta {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 190px 0;
 }
 
 .cta h3 {
@@ -813,7 +826,7 @@ ul.icons {
 }
 
 .cta .cta-btn:hover {
-  background: #00b371;
+  background: #4a689d;
 }
 
 @media (max-width: 1024px) {
@@ -1235,8 +1248,8 @@ ul.icons {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
+  background: #4a689d;
+  border-color: #4a689d;
 }
 
 .pricing .recommended-badge {
@@ -1485,7 +1498,7 @@ ul.icons {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #00b371;
+  background: #4a689d;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1595,7 +1608,7 @@ ul.icons {
 }
 
 #footer .social-links a:hover {
-  background: #00b371;
+  background: #4a689d;
   color: #fff;
   text-decoration: none;
 }
@@ -1609,7 +1622,7 @@ ul.icons {
 }
 
 #footer .credits a {
-  color: #00b371;
+  color: #4a689d;
   transition: 0.3s;
 }
 
