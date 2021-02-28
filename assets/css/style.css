@@ -844,7 +844,16 @@ ul.icons {
     justify-content: flex-end;
   }
 }
+.franken .fa-stack {
+  color: #7590be;
+  margin: 0.75em 0 0.75em 0;
+}
+.franken .line1 {
+}
 
+.franken .line12 {
+  margin: 10px 0 10px 0;
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
