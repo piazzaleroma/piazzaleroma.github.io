@@ -17,7 +17,13 @@ ul.feature-icons i:before {
   top: 0;
   width: 2.1em;
 }
-
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -734,7 +740,7 @@ ul.feature-icons {
   ul.feature-icons li {
     text-decoration: none;
     display: inline-block;
-    margin: 0 0 1.6875em 0;
+    margin: 0 0 0.8em 0;
     padding: 0.35em 0 0 3.5em;
     position: relative;
     vertical-align: top;
@@ -986,7 +992,7 @@ ul.icons {
 
 .franken .line1 {
     color: #000;
-    font-size: 12px
+    font-size: 14px
 }
 .franken .line2 {
     color: #000;
