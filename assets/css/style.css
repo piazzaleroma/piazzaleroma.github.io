@@ -883,6 +883,19 @@ ul.icons {
   min-height: 400px;
 }
 
+@media (max-width: 576px) {
+  .franken span  {
+font-size: calc(1em + 1vw);
+  }
+}
+
+@media (max-width: 576px) {
+  .features span  {
+font-size: calc(0.75em + 0.75vw);
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
