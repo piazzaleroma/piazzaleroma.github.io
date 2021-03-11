@@ -870,6 +870,7 @@ ul.icons {
   color: #7590be;
 }
 
+
 .features .icon-box p {
   font-size: 15px;
   color: #848484;
@@ -883,15 +884,15 @@ ul.icons {
   min-height: 400px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .franken span  {
-font-size: calc(1em + 1vw);
+font-size: calc(0.85em + 0.85vw);
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
   .features span  {
-font-size: calc(0.75em + 0.75vw);
+font-size: calc(0.85em + 0.85vw);
   }
 }
 
