@@ -591,14 +591,14 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   position: relative;
 }
 
@@ -859,13 +859,13 @@ ul.icons {
 # Features
 --------------------------------------------------------------*/
 .features .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: calc(0.9em + 0.9vw);
+  font-weight:600;
   margin: 5px 0 10px 60px;
 }
 
 .features .icon-box i {
-  font-size: 48px;
+  font-size: 40px;
   float: left;
   color: #7590be;
 }
@@ -881,15 +881,38 @@ ul.icons {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 200px;
+  min-height: 280px;
 }
 
 @media (max-width: 992px) {
   .franken span  {
-font-size: calc(0.70em + 0.70vw);
+font-size: calc(0.80em + 0.80vw);
   }
 }
+@media (max-width: 992px) {
+  .franken .line1  {
+font-size: calc(0.80em + 0.80vw);
+  }
+}
+@media (max-width: 992px) {
+  .franken h5  {
+font-size: calc(1em + 1vw);
+font-weight:600;
+  }
 
+  }
+  @media (max-width: 992px) {
+    .features .row  {
+  font-size: calc(0.90em + 0.90vw);
+
+    }
+}
+@media (max-width: 992px) {
+  .features .featuressmall  {
+font-size: calc(0.10em + 0.60vw);
+
+  }
+}
 @media (max-width: 992px) {
   .features span  {
 font-size: calc(0.70em + 0.70vw);
@@ -902,7 +925,7 @@ font-size: calc(1.1em + 1.1vw);
   }
 }
 @media (max-width: 992px) {
-p {
+.inside {
 font-size: calc(0.8em + 0.8vw);
   }
 }
