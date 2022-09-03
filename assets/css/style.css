@@ -132,11 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 40, 40, 0.9);
+  background: rgba(40, 40, 40, 1);
 }
 
 #header .logo {
@@ -456,14 +456,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  text-shadow:  1px 1px 2px #6f7174;
+  text-shadow:  1px 1px 3px #4a4b4d;
 }
 
 #hero h2 {
   color: #eee;
   margin-bottom: 40px;
   font-size: 24px;
-  text-shadow:  1px 1px 2px #6f7174;
+  text-shadow:  1px 1px 3px #4a4b4d;
 }
 
 #hero .play-btn {
@@ -881,22 +881,31 @@ ul.icons {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
+  min-height: 200px;
 }
 
 @media (max-width: 992px) {
   .franken span  {
-font-size: calc(0.85em + 0.85vw);
+font-size: calc(0.70em + 0.70vw);
   }
 }
 
 @media (max-width: 992px) {
   .features span  {
-font-size: calc(0.85em + 0.85vw);
+font-size: calc(0.70em + 0.70vw);
   }
 }
 
-
+@media (max-width: 992px) {
+.section-title h2 {
+font-size: calc(1.1em + 1.1vw);
+  }
+}
+@media (max-width: 992px) {
+p {
+font-size: calc(0.8em + 0.8vw);
+  }
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
