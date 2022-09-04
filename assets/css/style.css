@@ -618,6 +618,9 @@ section {
   color: #777777;
   font-size: 15px;
 }
+#presentation {
+  padding-top: 25px;
+}
 
 /*--------------------------------------------------------------
 # About Us
@@ -656,25 +659,28 @@ section {
 
 .about .content .btn-learn-more {
   font-family: "Roboto Slab", serif;font-family: 'Roboto Slab', serif;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 900;
+  font-size: 25px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #7590be;
+  color: #ffffff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #7590be;
+  border: 5px solid #fff;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #7590be;
-  color: #fff;
+  background: #ffffff;
+  color: #ffffff;
   text-decoration: none;
+}
+#lespublics{
+padding-top: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -820,7 +826,7 @@ ul.icons {
 
 .cta .cta-btn {
   font-family: "Roboto Slab", serif;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
@@ -881,7 +887,7 @@ ul.icons {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 280px;
+  min-height: 300px;
 }
 
 @media (max-width: 992px) {
@@ -928,6 +934,9 @@ font-size: calc(1.1em + 1.1vw);
 .inside {
 font-size: calc(0.8em + 0.8vw);
   }
+}
+#endfeatures {
+  padding-bottom:25px;
 }
 /*--------------------------------------------------------------
 # Clients
@@ -1575,6 +1584,15 @@ font-size: calc(0.8em + 0.8vw);
   100% {
     transform: rotate(360deg);
   }
+}
+iframe {
+    width: 100vh;
+    height: 30vh;
+
+    margin: 10px auto;
+    background-color: #777;
+    display: block;
+    border-style:none;
 }
 
 /*--------------------------------------------------------------
