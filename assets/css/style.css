@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -867,7 +867,7 @@ ul.icons {
 .features .icon-box h4 {
   font-size: calc(0.9em + 0.9vw);
   font-weight:600;
-  margin: 5px 0 10px 60px;
+  margin: 0 0 10px 60px;
 }
 
 .features .icon-box i {
@@ -1595,6 +1595,9 @@ iframe {
     border-style:none;
 }
 
+#buttonenvoyer {
+  margin: 15px 0px 10px 0px;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
